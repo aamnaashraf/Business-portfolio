@@ -11,7 +11,7 @@ const ProjectsPage = () => {
       title: "Modern Furniture E-Commerce",
       description: "A full-featured furniture store with product filtering, cart functionality, and CMS integration.",
       tech: ["Next.js", "Tailwind CSS", "Sanity", "TypeScript"],
-      image: "/furniture website.jpg",
+      image: "/furniture.JPG",
       demoLink: "https://final-hackathon-alpha-six.vercel.app/",
       codeLink: "https://github.com/aamnaashraf/final-hackathon.git"
     },
