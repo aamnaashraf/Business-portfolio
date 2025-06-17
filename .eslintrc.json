@@ -1,0 +1,8 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/no-unescaped-entities": "off",       // Apostrophes (') ko ignore karega
+    "@typescript-eslint/no-unused-vars": "warn", // Unused vars pe warning dega
+    "@next/next/no-page-custom-font": "off"      // Font warning disable karega
+  }
+}
