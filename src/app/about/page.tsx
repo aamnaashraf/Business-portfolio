@@ -12,20 +12,62 @@ type TeamMember = {
 const AboutPage = () => {
   const teamMembers: TeamMember[] = [
     {
-      name: "Wajahat Ali",
-      role: "Co-Founder & Full-Stack Architect",
-      bio: "Python expert with 5+ years building scalable web applications and AI solutions",
-      skills: ["Python", "Next.js", "AI/ML", "Cloud Architecture"],
+      name: "Aamna Ashraf Rajput",
+      role: "Founder & Tech CEO",
+      bio: "Full-stack developer who blends business strategy with hands-on coding in AI and marketing tech",
+      skills: [
+        "Digital Marketing (SEO/Ads)", 
+        "Agentic AI Architect",
+        "Next.js/React Frontend",
+        "Python Automation",
+        "UI/UX Design (Figma)",
+        "Project Management"
+      ],
       icon: ""
     },
     {
-      name: "Aamna Ashraf Rajput",
-      role: "Co-Founder & UX Engineer",
-      bio: "Design-savvy developer creating beautiful, functional user experiences",
-      skills: ["UI/UX Design", "React", "TypeScript", "Agentic AI"],
+      name: "Wajahat Ali",
+      role: "Co-Founder & AI/Cloud Lead",
+      bio: "Builds mission-critical backend systems with AI/ML integration",
+      skills: [
+        "Python (Django/Flask)",
+        "LLM & RAG Systems", 
+        "AWS/Azure Cloud",
+        "API Microservices",
+        "Database Optimization",
+        "DevOps (Docker/K8s)"
+      ],
+      icon: ""
+    },
+    {
+      name: "Muhammad Huzaifa",
+      role: "Co-Founder & API Specialist",
+      bio: "Full-stack developer focused on high-performance connections",
+      skills: [
+        "Node.js/Express", 
+        "REST/GraphQL APIs",
+        "React/TypeScript",
+        "MongoDB/PostgreSQL",
+        "WebSockets",
+        "JWT/OAuth Security"
+      ],
+      icon: ""
+    },
+    {
+      name: "Maryam Saleem",
+      role: "Co-Founder & Creative Tech Lead",
+      bio: "Unites visual design with advanced frontend engineering",
+      skills: [
+        "UI/UX Design",
+        "CSS/SCSS Animation",
+        "Three.js/WebGL",
+        "Adobe Creative Suite",
+        "Motion Graphics",
+        "Accessibility Standards"
+      ],
       icon: ""
     }
-  ]
+  ];
 
   // Animation variants
   const containerVariants: Variants = {
@@ -103,26 +145,26 @@ const AboutPage = () => {
               Our Story
             </motion.h2>
             
-            <motion.p 
-              whileHover={{ scale: 1.01 }}
-              className="text-gray-300 mb-6 text-lg leading-relaxed"
-            >
-              Founded in 2024 by Wajahat Ali and Aamna Ashraf Rajput, we began as two passionate developers with a vision to bridge the gap between technical excellence and beautiful design. What started as a small freelance operation has grown into a respected development studio.
-            </motion.p>
-            
-            <motion.p 
-              whileHover={{ scale: 1.01 }}
-              className="text-gray-300 mb-6 text-lg leading-relaxed"
-            >
-              Our journey has been fueled by our complementary skills - Wajahat's expertise in Python and backend systems combined with Aamna's eye for design and frontend architecture. Together, we've delivered solutions for startups, enterprises, and everything in between.
-            </motion.p>
-            
-            <motion.p 
-              whileHover={{ scale: 1.01 }}
-              className="text-gray-300 text-lg leading-relaxed"
-            >
-              Today, we continue to push boundaries in web development, AI integration, and user experience design, always staying at the forefront of technology while maintaining our commitment to quality.
-            </motion.p>
+                <motion.p 
+  whileHover={{ scale: 1.01 }}
+  className="text-gray-300 mb-6 text-lg leading-relaxed"
+>
+  Founded in 2025 by our team of four passionate developers, we came together with a shared vision to create exceptional digital experiences. What began as a collaborative effort among like-minded professionals has quickly grown into a dynamic web development agency.
+</motion.p>
+
+<motion.p 
+  whileHover={{ scale: 1.01 }}
+  className="text-gray-300 mb-6 text-lg leading-relaxed"
+>
+  Our strength lies in our diverse skillset - combining frontend artistry with backend expertise, UI/UX design with robust architecture. Each team member brings unique talents to the table, allowing us to tackle complex projects with comprehensive solutions. Together, we've helped businesses of all sizes establish their digital presence.
+</motion.p>
+
+<motion.p 
+  whileHover={{ scale: 1.01 }}
+  className="text-gray-300 text-lg leading-relaxed"
+>
+  As we move forward, we continue to innovate in web technologies, responsive design, and performance optimization. Our collaborative approach ensures we stay ahead of industry trends while delivering tailored solutions that exceed our clients' expectations.
+</motion.p>
           </motion.div>
         </div>
       </motion.section>
