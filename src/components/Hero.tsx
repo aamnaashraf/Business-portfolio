@@ -196,7 +196,7 @@ const HeroSection = () => {
       className="w-full h-full"
     >
       <Image
-        src="/logo 1.jpeg"
+        src="/final logo.jpg"
         alt="Codentech Services"
         width={600}
         height={700}
