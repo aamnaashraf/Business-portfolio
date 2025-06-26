@@ -18,7 +18,7 @@ const Footer = () => {
   const socials = [
     { icon: <FaFacebook />, href: "https://www.facebook.com/profile.php?id=61577329857165" },
     { icon: <FaInstagram />, href: "https://www.instagram.com/code_ntech?utm_source=qr&igsh=MXNmZndramg1bWFvMw==" },
-    { icon: <FaLinkedin />, href: "https://linkedin.com/company/codentech" },
+    { icon: <FaLinkedin />, href: "https://www.linkedin.com/company/code-n-tech/" },
     { icon: <FiMail />, href: "mailto:codentech744@gmail.com" },
   ]
 
