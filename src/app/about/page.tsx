@@ -12,22 +12,8 @@ type TeamMember = {
 const AboutPage = () => {
   const teamMembers: TeamMember[] = [
     {
-      name: "Aamna Ashraf Rajput",
-      role: "Founder & Tech CEO",
-      bio: "Full-stack developer who blends business strategy with hands-on coding in AI and marketing tech",
-      skills: [
-        "Digital Marketing (SEO/Ads)", 
-        "Agentic AI Architect",
-        "Next.js/React Frontend",
-        "Python Automation",
-        "UI/UX Design (Figma)",
-        "Project Management"
-      ],
-      icon: ""
-    },
-    {
       name: "Wajahat Ali",
-      role: "Co-Founder & AI/Cloud Lead",
+      role: "Founder & AI/Cloud Lead",
       bio: "Builds mission-critical backend systems with AI/ML integration",
       skills: [
         "Python (Django/Flask)",
@@ -39,6 +25,21 @@ const AboutPage = () => {
       ],
       icon: ""
     },
+    {
+      name: "Aamna Ashraf Rajput",
+      role: "Co-Founder & Tech CEO",
+      bio: "Full-stack developer who blends business strategy with hands-on coding in AI and marketing tech",
+      skills: [
+        "Digital Marketing (SEO/Ads)", 
+        "Agentic AI Architect",
+        "Next.js/React Frontend",
+        "Python Automation",
+        "UI/UX Design (Figma)",
+        "Project Management"
+      ],
+      icon: ""
+    },
+    
     {
       name: "Muhammad Huzaifa",
       role: "Co-Founder & API Specialist",
