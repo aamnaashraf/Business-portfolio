@@ -6,7 +6,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const ProjectsPage = () => {
-  const projects = [
+ const projects = [
     {
       title: "Modern Furniture E-Commerce",
       description: "A full-featured furniture store with product filtering, cart functionality, and CMS integration.",
@@ -14,6 +14,14 @@ const ProjectsPage = () => {
       image: "/furniture.jpg",
       demoLink: "https://final-hackathon-alpha-six.vercel.app/",
       codeLink: "https://github.com/aamnaashraf/final-hackathon.git"
+    },
+    {
+      title: "Agenta Website",
+      description: "A sleek corporate website for Agenta, featuring responsive design, smooth animations, and contact forms for client engagement.",
+      tech: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+      image: "/project 2.JPG",
+      demoLink: "https://agenta-website.vercel.app/",
+      codeLink: "https://github.com/MARIUAM/Agenta-Website-"
     },
     {
       title: "Tour Booking Platform",
@@ -30,6 +38,14 @@ const ProjectsPage = () => {
       image: "/e commerce.jpeg",
       demoLink: "https://market-place-hacks09.vercel.app/",
       codeLink: "https://github.com/WajahatAli3218664/MarketPlace-Hacks09"
+    },
+     {
+      title: "Coffee Website",
+      description: "An e-commerce site for a coffee brand, featuring product listings, cart functionality.",
+      tech: ["Next.js", "React", "Tailwind CSS", "Stripe"],
+      image: "/project5.JPG",
+      demoLink: "https://coffee-website-flax.vercel.app/",
+      codeLink: "https://github.com/HezziCode/Coffee-Website"
     },
     {
       title: "AI Chatbot Assistant",
@@ -78,6 +94,40 @@ const ProjectsPage = () => {
       image: "/pizza.jpeg",
       demoLink: "https://pizza-website24.vercel.app/",
       codeLink: "https://github.com/WajahatAli3218664/PizzaWebsite24"
+    },
+         {
+      title: "Resume Generator",
+      description: "A tool to create professional resumes with customizable templates, PDF export, and real-time previews.",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "React-To-Print"],
+      image: "/project6.JPG",
+      demoLink: "https://generate-ur-resume.vercel.app/",
+      codeLink: "https://github.com/HezziCode/Resume-Generator-5"
+    },
+    {
+      title: "Blogging Website",
+      description: "A modern blog platform with dynamic content, rich text editing, and SEO optimization. Built with Sanity CMS for easy content management.",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Sanity CMS"],
+      image: "/project 1.JPG",
+      demoLink: "https://meriiwebsite.vercel.app/",
+      codeLink: "https://github.com/MARIUAM/meriiwebsite"
+    },
+
+    
+    {
+      title: "Personal Portfolio",
+      description: "A minimalist portfolio showcasing projects with dark/light mode, interactive UI, and performance optimization.",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "React Icons"],
+      image: "/project 3.JPG",
+      demoLink: "https://porfolio-web-five.vercel.app/",
+      codeLink: "https://github.com/MARIUAM/porfolio-web"
+    },
+    {
+      title: "Agentic AI Website",
+      description: "A landing page for an AI startup, highlighting services, testimonials, and a chatbot integration for user interaction.",
+      tech: ["Next.js", "Tailwind CSS", "React", "OpenAI API"],
+      image: "/project4.JPG",
+      demoLink: "https://agentic-ai-hezzi.vercel.app/",
+      codeLink: "https://github.com/HezziCode/Agentic-ai-hezzi"
     }
   ]
 
